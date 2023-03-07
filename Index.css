@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+.parentBox{
+    width: 600px;
+    margin: auto;
+}
+
+
+.screen {
+    border: 2px solid;
+    border-color: black;
+    background-color: green;
+    padding: 10px;
+}
+
+.numbers{
+    background-color: gray;
+    text-align: center;
+
+}
+
+.operator{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 1fr;
+    grid-gap: 10px;
+}
